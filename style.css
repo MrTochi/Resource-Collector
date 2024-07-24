@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.firstContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    margin: 2rem;
+    border: 1px solid #d3d3d3;
+    padding: 1rem;
+}
+
+.containerA{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    justify-content: start;
+    align-items: start;
+    background-color: #d3d3d3;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.create{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.containerB{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3;
+    border-radius: 1rem;
+    padding: 1rem;
+   flex-wrap: wrap;
+}
+
+.resourceContainer{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.8rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.namedeleteContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 0.5rem;
+}
+
+.iconBox1{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 0.5rem;
+}
+
+.secondCont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+
+.secondContainerChild{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    justify-content: start;
+    align-items: start;
+    background-color: #d3d3d3;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+   
+}
+
+.iconBox{
+    position: absolute;
+    bottom: 46rem;
+    left:94rem ;
+    cursor: pointer;
+    padding: 1.2rem;
+    border-radius: 300px;
+    
+}
+
+.iconBox:hover{
+   
+    background-color: white;
+}
+
+p{
+    color: red;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    justify-content: start;
+    align-items: start;
+   
+
+}
+
+.formGroup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.6rem;
+}
+
+.nameGroup,.linkGroup,.descriptionGroup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+input,textarea{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+}
+
+input::placeholder{
+    color: #c0bdbd;
+}
+
+textarea::placeholder{
+    color: #c0bdbd;
+}
+
+label{
+    font-size: 0.9rem;
+}
+
+.submit{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 100%;
+}
+

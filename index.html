@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="firstContainer">
+        <div class="containerA">
+            <h3>Welcome</h3>
+            <button class="create" id="create" type="submit">Create A Resource</button>
+        </div>
+        <div class="containerB" id="containerB" >
+
+        </div>
+    </div>
+   
+    <div class="secondCont" id="secondCont">
+        <div class="secondContainerChild">
+            <h3>Create Resource</h3>
+            <form action="" class="form" id="form">
+                <div class="formGroup">
+                    <div class="nameGroup">
+                        <label for="name">Name Of Website:</label>
+                        <input type="text" name="name" id="name" placeholder="e.g Facebook">
+                        <p id="nameAlert"></p>
+                    </div>
+    
+                    <div class="linkGroup">
+                        <label for="link">Link Of Website:</label>
+                        <input type="text" name="link" id="link" placeholder="e.g www.facebook.com">
+                        <p id="linkAlert"></p>
+                    </div>
+    
+                    <div class="descriptionGroup">
+                        <label for="description">Description Of Website:</label>
+                        <textarea name="description" id="description" placeholder="e.g I got this information from facebook"></textarea>
+                       
+                    </div>
+                </div>
+    
+                <button class="submit" id="submit" type="submit">CREATE</button>
+                <p id="buttonAlert" ></p>
+            </form>
+        </div>
+
+      <div class="iconBox" id="iconBox">
+        <i class="fa-solid fa-x" id="icon" ></i>
+      </div>
+    </div>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
